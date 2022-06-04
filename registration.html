@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<body style="background-color:white;">
+
+	<title> Registration </title>
+<hr></hr>
+	<h3> General </h3>
+
+<form action="/registration_Action.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <hr></hr>
+
+  <h4>Gender</h4>
+
+<input type="radio"  name="gen" value="Male">
+  <label for="male">Male</label>
+  <input type="radio"  name="gen" value="Female">
+  <label for="female">Female</label><br><br>
+  <hr></hr>
+
+  <h3> Contact </h3>
+  <label for="email">E-mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="mno">Mobile No:</label><br>
+  <input type="tel" id="mno" name="mno"><br><br>
+
+  <hr></hr>
+  <h3> Address </h3>
+  <label for="address">Street/House/Road :</label><br>
+  <input type="text" id="address" name="address"><br>
+  <label for="country">Country :</label><br>
+  <select name="Country" id="country">
+  <option value="bangladesh">BANGLADESH</option>
+  <option value="india">INDIA</option>
+  <option value="usa">UNITED STATES OF AMERICA</option>
+  <option value="uk">UNITED KINGDOM</option>
+</select><br><br>
+<hr></hr>
+
+
+  <input type="submit" value="Register">
+</form>
+
+
+
+</body>
+
+
+</html>
